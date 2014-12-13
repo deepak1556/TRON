@@ -40,11 +40,7 @@ Player.prototype.keys = {
     UP: 'W'.charCodeAt(0),
     DN: 'S'.charCodeAt(0),
     LT: 'A'.charCodeAt(0),
-    RT: 'D'.charCodeAt(0),
-    A_UP: 38,
-    A_DN: 40,
-    A_LT: 37,
-    A_RT: 39,
+    RT: 'D'.charCodeAt(0)
 }
 
 Player.prototype.KEY_TURBO   = ' '.charCodeAt(0);

@@ -42,12 +42,12 @@ var entityManager = {
                                              cy: VERTICES_PER_ROW-1}],
                              sequencer: null,
                              keys: {
-                                 UP: 1000,
-                                 DN: 1001,
-                                 LT: 1002,
-                                 RT: 1003,
+                                 UP: 38,
+                                 DN: 40,
+                                 LT: 37,
+                                 RT: 39,
                              },
-                             AI: true});
+                             AI: false});
     },
 
     generateExplosion : function(x, y)
